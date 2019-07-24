@@ -1,0 +1,19 @@
+
+<ion-content padding>
+  <ion-card *ngFor='let return of arr'>
+    <ion-card-content>
+      {{ return.product_name }}
+      
+
+      <ul>
+        <li>
+          description: {{ return.description }}
+        </li>
+
+          <li>
+          price: ${{ return.price }}
+        </li>
+      </ul>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

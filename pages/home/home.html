@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngFor='let student of displayArr | unique; let i = index' (click)='go(student)'>
+    <ion-card-content>
+      {{ student.cat_name }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
