@@ -22,6 +22,7 @@ import { Component } from '@angular/core';
       margin: 0;
       padding: 50px;
       list-style: none;
+      cursor: pointer;
     }
 
   `]
